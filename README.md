@@ -14,8 +14,11 @@ A fast, multithreaded TCP port scanner built with Python. Supports custom port r
 ## Usage
 
 ## bash
+```
 python3 scanner.py <target> -p <port-range> -t <threads> -v
-
+```
 
 ## Example
+```
 python3 scanner.py scanme.nmap.org -p 1-1024 -t 200 -v
+```
