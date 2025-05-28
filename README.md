@@ -20,8 +20,9 @@ cd python-port-scanner
 python3 scanner.py <target> -p <port-range> -t <threads> -v
 ```
 ### Example
+#### Basic Command
 ```bash
-python3 scanner.py scanme.nmap.org -p 1-1024 -t 200 -v
+python3 scanner.py scanme.nmap.org
 ```
 #### Scan ports 1–100 on example.com with verbose output
 ```bash
