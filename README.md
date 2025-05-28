@@ -19,6 +19,8 @@ A fast, multithreaded TCP port scanner built with Python. Supports custom port r
 git clone https://github.com/anzDoooh/python-port-scanner.git
 cd python-port-scanner
 ```
+
+### usage
 ```bash
 python3 scanner.py <target> -p <port-range> -t <threads> -v
 ```
