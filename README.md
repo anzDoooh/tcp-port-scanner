@@ -11,7 +11,7 @@ A fast, multithreaded TCP port scanner built with Python. Supports custom port r
 - Service detection (`getservbyport`)
 - Verbose output for debugging
 
-## 🛠️ Installation
+## Installation
 
 ### Clone the Repository
 
