@@ -1,6 +1,3 @@
-# tcp-port-scanner
-A fast multi-threaded TCP port scanner written in Python
-
 # Python Port Scanner(TCP)
 
 A fast, multithreaded TCP port scanner built with Python. Supports custom port ranges, thread control, and verbosity for professional use in ethical hacking and CTFs.
