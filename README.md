@@ -26,3 +26,12 @@ python3 scanner.py <target> -p <port-range> -t <threads> -v
 ```bash
 python3 scanner.py scanme.nmap.org -p 1-1024 -t 200 -v
 ```
+#### Scan ports 1–100 on example.com with verbose output
+```bash
+python3 port_scanner.py example.com -p 1-100 -v
+
+```
+#### Scan all ports with 500 threads
+```bash
+python3 port_scanner.py 192.168.1.1 -p 1-65535 -t 500
+```
