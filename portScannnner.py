@@ -17,7 +17,7 @@ def scan_port(target, port, verbose=False):
                 print(f"[+] Port {port} is OPEN | Service: {service}")
                 return (port, service)
             elif verbose:
-                print(f"[-] Port {port} is closed")
+                print(f"[-] Port {port} is CLOSED")
     except Exception as e:
         if verbose:
             print(f"[!] Error on port {port}: {e}")
